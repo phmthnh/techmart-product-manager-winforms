@@ -1,4 +1,5 @@
-namespace TechMartManager;
+namespace TechMartManager
+{
 
 internal static class Program
 {
@@ -8,4 +9,6 @@ internal static class Program
         ApplicationConfiguration.Initialize();
         Application.Run(new MainForm());
     }
+}
+
 }

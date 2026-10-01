@@ -4,7 +4,8 @@ using System.Text;
 using TechMartManager.Helpers;
 using TechMartManager.Models;
 
-namespace TechMartManager;
+namespace TechMartManager
+{
 
 public partial class MainForm : Form
 {
@@ -309,4 +310,6 @@ public partial class MainForm : Form
     // ── Cập nhật StatusStrip ─────────────────────────────────────────────────
     private void UpdateStatus() =>
         lblStatus.Text = $"Tổng số sản phẩm: {_allProducts.Count}";
+}
+
 }
