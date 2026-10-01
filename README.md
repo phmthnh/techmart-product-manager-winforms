@@ -1,7 +1,7 @@
 # 🛒 TechMart Product Manager — Quản lý Thiết bị Công nghệ
 
 > **Bài Kiểm Tra 01 — Phần III: Windows Forms GUI**
-> Môn: Lập trình C# / .NET | Sinh viên: Phạm Tuấn Thành | Công nghệ: .NET 8 · WinForms
+> Môn: Lập trình C# / .NET | Sinh viên: Phạm Tuấn Thành | Công nghệ: .NET 10.0 · WinForms
 
 ---
 
@@ -45,7 +45,7 @@ techmart-product-manager-winforms/
 ├── TechMartManager.sln
 ├── src/
 │   └── TechMartManager/
-│       ├── TechMartManager.csproj     # net8.0-windows, UseWindowsForms
+│       ├── TechMartManager.csproj     # net10.0-windows, UseWindowsForms
 │       ├── Program.cs                 # Entry point [STAThread]
 │       ├── MainForm.cs                # Business logic: thêm/sửa/xóa/search/CSV
 │       ├── MainForm.Designer.cs       # UI: InitializeComponent đầy đủ literal values
@@ -104,7 +104,7 @@ techmart-product-manager-winforms/
 > ⚠️ **Bắt buộc chạy trên Windows** (WinForms không hỗ trợ Linux/macOS).
 
 ```bash
-# Yêu cầu: .NET 8 SDK + Windows
+# Yêu cầu: .NET 10.0 SDK + Windows
 dotnet run --project src/TechMartManager
 ```
 
@@ -149,3 +149,4 @@ Mở bằng **Visual Studio 2022**: mở file `TechMartManager.sln`.
 
 **Q: `ErrorProvider` hoạt động ra sao?**
 > Gọi `errorProvider.SetError(control, message)` để hiện icon nhấp nháy bên cạnh control. Gọi `errorProvider.Clear()` để tắt.
+
